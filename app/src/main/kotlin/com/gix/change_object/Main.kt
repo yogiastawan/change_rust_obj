@@ -18,4 +18,5 @@ fun main() {
     println("waiting to off..")
 
     app.turnOff(app.getAddress())
+    nativeThread.join()
 }
