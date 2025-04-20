@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "/home/gihexdev00/Programming/java/4. rust_change_structbuild4. rust_change_struct",
+			"script": "build",
+			"description": "Assembles and tests this project.",
+			"group": "build",
+			"project": "4. rust_change_struct",
+			"buildFile": "/home/gihexdev00/Programming/java/4. rust_change_struct/build.gradle",
+			"rootProject": "4. rust_change_struct",
+			"projectFolder": "/home/gihexdev00/Programming/java/4. rust_change_struct",
+			"workspaceFolder": "/home/gihexdev00/Programming/java/4. rust_change_struct",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: build"
+		},
+		{
+			"type": "gradle",
+			"id": "/home/gihexdev00/Programming/java/4. rust_change_structrun4. rust_change_struct",
+			"script": "run",
+			"description": "Runs this project as a JVM application",
+			"group": "application",
+			"project": "4. rust_change_struct",
+			"buildFile": "/home/gihexdev00/Programming/java/4. rust_change_struct/build.gradle",
+			"rootProject": "4. rust_change_struct",
+			"projectFolder": "/home/gihexdev00/Programming/java/4. rust_change_struct",
+			"workspaceFolder": "/home/gihexdev00/Programming/java/4. rust_change_struct",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: run"
+		}
+	]
+}

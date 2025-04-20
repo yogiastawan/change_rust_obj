@@ -1,0 +1,12 @@
+# REFERENCE
+
+- https://medium.com/@mkcode0323/thread-sleep-vs-delay-kotlin-coroutines-73650f3294c0
+
+# INTRO
+
+1. `Kotlin`: Create another thread named `nativeThread`. `nativeThread`call function `mainNative` in rust.
+2. `Rust`: Execute `mainNative`. Create new student `Box Object`, then get the `raw pointer` of Box. After that call methods `setAddress`.
+3. `Kotlin`: set var `address`. Then call method `doubleGrade`.
+4. `Rust`: execute `doubleGrade`. Get the address pointer and cast to pointer `Student`.
+5. `Kotlin`: Call method `turnOff`.
+6. `Rust`: execute `turnOff`. 
